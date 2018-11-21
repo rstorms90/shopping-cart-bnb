@@ -19,7 +19,7 @@ export default class App extends React.Component {
     }  
 }
 
-    addItem = ( {myItem, quantity} ) => {
+    newItem = ( {myItem, quantity} ) => {
         let cartCopy = [...this.state.cart]
         // set next max id
         const maxId = this.state.cart
