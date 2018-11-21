@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 
 export default class CartHeader extends Component {
     render() {
-        const navStyle = {
+        const headerStyle = {
             backgroundColor: 'teal'
         }
 
         return (
-            <nav style={navStyle} className="navbar navbar-dark bg-primary">
+            <nav style={headerStyle} className="navbar navbar-dark bg-primary">
                 <a className="navbar-brand" href="/">Shopping Cart</a>
             </nav>
         )
