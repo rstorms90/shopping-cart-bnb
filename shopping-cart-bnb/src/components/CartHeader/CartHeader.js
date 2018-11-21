@@ -7,7 +7,7 @@ export default class CartHeader extends Component {
         }
 
         return (
-            <nav style={headerStyle} className="navbar navbar-dark bg-primary">
+            <nav style={headerStyle} className="navbar navbar-dark">
                 <a className="navbar-brand" href="/">Shopping Cart</a>
             </nav>
         )
