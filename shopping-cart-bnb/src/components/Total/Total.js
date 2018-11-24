@@ -9,7 +9,7 @@ export default class Total extends React.Component {
     total = total + ''
     let price = `$ ${total.substring(0, total.length - 2)}.${total.substring(total.length-2)}`
     return (
-        <div>Total Price = {price}</div>
+        <div className="total">Total = {price}</div>
     )
   }
 }

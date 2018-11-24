@@ -55,8 +55,8 @@ export default class App extends React.Component {
           <CartHeader />
             <div className="collection-item">
               <div className="row">
-              <div className="col-md-8">Product</div>
-              <div className="col-md-2">$</div>
+              <div className="col-md-6 productTitle">Product</div>
+              <div className="col-md-2">Price</div>
               <div className="col-md-2">#</div>
             </div>
           </div>
