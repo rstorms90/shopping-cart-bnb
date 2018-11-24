@@ -72,7 +72,7 @@ export default class NewItem extends React.Component {
                 <label> Quantity: </label>
                 <input type="number" value={this.state.quantity} onChange={this.onQuantityChange} />
                 <br />
-                <input type="submit" />
+                <input type="submit" className="submit" />
             </form>
         )
     }

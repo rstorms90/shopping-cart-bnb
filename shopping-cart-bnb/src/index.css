@@ -39,6 +39,11 @@ body {
     font-size: 1.5em;
 }
 
+.product {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 15px;
+}
+
 .col-md-2 {
     margin-left: 5%;
 }
@@ -46,6 +51,19 @@ body {
 .total {
     text-align: right;
     width: 62%;
+    text-shadow: 2px 2px 20px;
+}
+
+label {
+    padding: 1%;
+}
+
+.submit {
+    margin-left: 22%;
+    background-color: rgb(31, 183, 231);
+    color: white;
+    border-radius: 15%;
+    border: none;
 }
 
 .copyright {
