@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 body {
-    background: url('https://images.unsplash.com/photo-1511120096-e7744308d1d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1b3aab67531850fbd32151b0422e8bff&auto=format&fit=crop&w=1650&q=80');
+    background: url('https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29425be9dfb52e3646e955ea3ec6c115&auto=format&fit=crop&w=2716&q=80');
     background-size: cover;
     color: white;
     font-family: 'Cinzel';
@@ -15,23 +15,28 @@ body {
 }
 
 .navContainer {
-    margin-left: 30%;
-    margin-right: auto;
+    margin-left: 27%;
+    margin-bottom: 5%;
 }
 
 .shoppingCart {
     font-size: 3em;
+    letter-spacing: .2em;
     color: white;
     text-shadow: 2px 2px 10px;
 }
 
 .productTitle {
     text-align: center;
+    font-size: 1.5em;
 }
 
-.product {
-    border: 1px solid white;
-    margin: 1px;
+.price {
+    font-size: 1.5em;
+}
+
+.quantity {
+    font-size: 1.5em;
 }
 
 .col-md-2 {
@@ -41,4 +46,8 @@ body {
 .total {
     text-align: right;
     width: 62%;
+}
+
+.copyright {
+    text-align: right;
 }

@@ -6,7 +6,7 @@ export default class CartHeader extends Component {
         return (
             <div className="navContainer">
                 <nav className="nav">
-                    <a className="shoppingCart" href="/">Shopping Cart</a>
+                    <h1 className="shoppingCart">Shopping Cart</h1>
                 </nav>
             </div>
         )
